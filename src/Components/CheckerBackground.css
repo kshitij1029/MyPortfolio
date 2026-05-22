@@ -1,0 +1,64 @@
+/* =========================================================
+   CHECKER BACKGROUND + HOVER POP-OUT EFFECT
+   Drop this into your global CSS or HomePage.css
+   Works with both light and dark themes automatically.
+   ========================================================= */
+
+/* 1. The animated checkbox canvas layer */
+#checker-canvas {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+/* 2. Make sure your existing layout sits above the canvas */
+.hero-container,
+.section,
+.marquee-wrap,
+[class*="section"] {
+  position: relative;
+  z-index: 1;
+}
+
+/* 3. Custom cursor — replaces the default pointer */
+body {
+  cursor: none !important;
+}
+
+#custom-cursor {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  border: 2px solid var(--orange, #f97316);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+  transition:
+    width 0.2s ease,
+    height 0.2s ease,
+    background 0.2s ease,
+    border-color 0.2s ease;
+  mix-blend-mode: difference;
+}
+
+#custom-cursor.hovered {
+  width: 36px;
+  height: 36px;
+  background: rgba(249, 115, 22, 0.15);
+  border-color: var(--teal, #14b8a6);
+}
+
+/* Dark mode cursor shift */
+@media (prefers-color-scheme: dark) {
+  #custom-cursor {
+    border-color: var(--teal, #14b8a6);
+  }
+  #custom-cursor.hovered {
+    border-color: var(--orange, #f97316);
+  }
+}
