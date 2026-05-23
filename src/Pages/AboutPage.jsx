@@ -27,7 +27,7 @@ const AboutPage = ({navigate}) => {
             </p>
    
             <div className="about-action-btns">
-              <a href="https://drive.google.com/file/d/1NjPPrsPngfjPvyW1_35ynV4yYhuF2hbu/view?usp=sharing" target="_blank" rel="noreferrer" className="btn-primary" style={{ fontSize: "1rem", padding: "12px 24px" }}>RESUME</a>
+              <a href="https://drive.google.com/file/d/1dq6JCIVvFLyGwyMsY2LoRE5fkJQpz6G0/view?usp=sharing" target="_blank" rel="noreferrer" className="btn-primary" style={{ fontSize: "1rem", padding: "12px 24px" }}>RESUME</a>
               <a className="btn-secondary" style={{ fontSize: "0.95rem", padding: "12px 24px" }} onClick={() => navigate("Internships")}>MY INTERNSHIPS</a>
             </div>
           </div>
