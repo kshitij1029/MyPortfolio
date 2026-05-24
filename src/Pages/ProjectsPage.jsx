@@ -8,6 +8,7 @@ import pizza_town from "../assets/PIZZA_TOWN.png"
 import beyond_travel from "../assets/BEYOND_TRAVEL.png"
 import interview_sarthi from "../assets/INTERVIEW_SARTHI.png"
 import blogscape from "../assets/blogscape.png"
+import rankpilot from "../assets/RANK_PILOT.png"
 import qskip from "../assets/qskip.png"
 
 const PROJECTS = [
