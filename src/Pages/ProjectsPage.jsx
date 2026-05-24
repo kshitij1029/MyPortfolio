@@ -22,6 +22,16 @@ const PROJECTS = [
     gitLink: "https://github.com/kshitij1029/resumeCo"
   },
   {
+    emoji: rankpilot,
+    category: "MERN STACK",
+    title: "RankPilot",
+    desc: "An instant AI-powered SAAS website  which provides SEO audits for any websit, Uncovers hidden issues and optimizes performance.",
+    tags: ["REACT", "TAILWIND", "JS/TS", "NODE", "EXPRESS", "MONGODB", "REST API'S", "BROWSER BASE", "VERCEL"],
+    bg: "#2a1a0a",
+    verLink: "https://seo-rank-tracker-teal.vercel.app/",
+    gitLink: "https://github.com/kshitij1029/SEO-Rank-Tracker"
+  },
+  {
     emoji: blogscape,
     category: "Backend",
     title: "BlogScape",

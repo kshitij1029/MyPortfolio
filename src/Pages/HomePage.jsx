@@ -11,6 +11,7 @@ import img3 from "../assets/Myself4.jpeg"
 import img4 from "../assets/Myself5.jpeg"
 import interview_sarthi from "../assets/INTERVIEW_SARTHI.png"
 import blogscape from "../assets/blogscape.png"
+import rankpilot from "../assets/RANK_PILOT.png"
 import AnimatedStat from '../Components/AnimatedStat';
 
 const MARQUEE_ITEMS = [
@@ -44,24 +45,14 @@ const PROJECTS = [
     gitLink: "https://github.com/kshitij1029/BlogScape"
   },
   {
-    emoji: pizza_town,
-    category: "Frontend",
-    title: "Pizza Town",
-    desc: "A fully responsive pizza ordering UI with animated cart, custom builder, and smooth checkout experience. It clearly defines hte responsiveness property.",
-    tags: ["REACT", "TAILWIND", "JAVASCRIPT", "FIGMA", "CANVA", "VERCEL"],
+    emoji: rankpilot,
+    category: "MERN STACK",
+    title: "RankPilot",
+    desc: "An instant AI-powered SAAS website  which provides SEO audits for any websit, Uncovers hidden issues and optimizes performance.",
+    tags: ["REACT", "TAILWIND", "JS/TS", "NODE", "EXPRESS", "MONGODB", "REST API'S", "BROWSER BASE", "VERCEL"],
     bg: "#2a1a0a",
-    verLink: "https://pizzeria-project-eight.vercel.app/",
-    gitLink: "https://github.com/kshitij1029/Pizzeria-Project"
-  },
-  {
-    emoji: sarthi_ai,
-    category: "Frontend",
-    title: "Sarthi-AI",
-    desc: "A Customized AI Response Agent, CyberSecurity themed which delivers exact and up to date responses",
-    tags: ["REACT", "TAILWIND", "GOOGLE APIs", "FIGMA", "VERCEL"],
-    bg: "#1a2a1a",
-    verLink: "https://sarthi-ai-nine.vercel.app",
-    gitLink: "https://github.com/kshitij1029/Sarthi-AI"
+    verLink: "https://seo-rank-tracker-teal.vercel.app/",
+    gitLink: "https://github.com/kshitij1029/SEO-Rank-Tracker"
   },
 ];
 
