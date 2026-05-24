@@ -67,7 +67,7 @@ const PROJECTS = [
     category: "Frontend",
     title: "Sarthi-AI",
     desc: "A Customized AI Response Agent, CyberSecurity themed which delivers exact and up to date responses",
-    tags: ["REACT", "TAILWIND", "GOOGLE APIs", "FIGMA", "VERCEL"],
+    tags: ["REACT", "TAILWIND", "GOOGLE API", "FIGMA", "VERCEL", "JAVASCRIPT"],
     bg: "#1a2a1a",
     verLink: "https://sarthi-ai-nine.vercel.app",
     gitLink: "https://github.com/kshitij1029/Sarthi-AI"
